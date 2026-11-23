@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="theme-color" content="#070a1f">
+<title>أقنعة</title>
+<meta name="description" content="لعبة جماعية: سوّ شخصية وهمية، تحاور بها، وخمّن مين ورا كل قناع.">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Reem+Kufi:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"><i></i><i></i><i></i></div>
+  <header id="top" class="topbar hidden">
+    <div class="brand"><span class="brand-mask">🎭</span><span>أقنعة</span></div>
+    <div class="top-mid" id="topMid"></div>
+    <button class="icon-btn" id="muteBtn" aria-label="كتم الصوت">🔊</button>
+  </header>
+  <div id="hostBar" class="hostbar hidden"></div>
+  <div id="netBanner" class="net-banner hidden">جاري إعادة الاتصال…</div>
+  <main id="app"></main>
+  <div id="modalRoot"></div>
+  <div id="toast" class="toast"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <script src="/app.js"></script>
+</body>
+</html>
